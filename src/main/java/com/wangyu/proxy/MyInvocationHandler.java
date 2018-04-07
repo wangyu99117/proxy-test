@@ -33,7 +33,7 @@ public class MyInvocationHandler implements InvocationHandler {
         return null;
     }
 
-    public void setObject(PublishInfoServiceStub temp){
+    public void setObject(Object temp){
         jsfService = temp;
     }
 }
