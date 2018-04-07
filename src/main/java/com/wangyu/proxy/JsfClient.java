@@ -16,6 +16,7 @@ import java.lang.reflect.Proxy;
 /**
  * Created by wangyu21 on 2017/2/23.
  * 业务模块继承此类
+ * jsfService 在 afterPropertiesSet 里设置
  */
 public class JsfClient<T> implements InvocationHandler , FactoryBean, InitializingBean {
 
